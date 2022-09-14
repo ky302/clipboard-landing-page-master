@@ -26,10 +26,11 @@ header {
   background-image: url(./images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-blend-mode: lighten;
+  background-position: center;
+  background-size: cover;
 }
 
 h1,
-h2,
 h3,
 h4 {
   color: var(--dark-grayish-blue);
@@ -188,11 +189,6 @@ p {
   width: 90px;
 }
 
-.info-sec h2 {
-}
-.info-sec p {
-}
-
 /* footer */
 
 .fotter-sec {
@@ -231,6 +227,7 @@ p {
 }
 .list-sec li a {
   text-decoration: none;
+  color: var(--dark-grayish-blue);
 }
 .list-sec li a:hover {
   color: var(--strong-cyan);
@@ -353,7 +350,6 @@ p {
     line-height: 40px;
   }
   .list-sec li a {
-    color: var(--dark-grayish-blue);
     text-decoration: none;
   }
   .icon {
